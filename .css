@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: #f1f1f1;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    background: #fff;
+  }
+  
+  .header {
+    display: flex;
+    background: #a6d8dd;
+    height: 40px;
+    align-items: center;
+  }
+  
+  .logo-bar {
+    width: 50px;
+    height: 20px;
+    background: #ef775f;
+    margin: 0 10px;
+  }
+  
+  .address-bar {
+    flex: 1;
+    height: 20px;
+    background: #eee;
+  }
+  
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .hero {
+    display: flex;
+    height: 150px;
+  }
+  
+  .hero-sidebar {
+    width: 25%;
+    background: #bce8ef;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .hero-sidebar .button {
+    width: 70%;
+    height: 20px;
+    background: white;
+  }
+  
+  .cta {
+    width: 50%;
+    height: 20px;
+    background: #444;
+  }
+  
+  .hero-carousel {
+    flex: 1;
+    background: white;
+    padding: 10px;
+  }
+  
+  .carousel-header {
+    height: 20px;
+    background: #444;
+    margin-bottom: 10px;
+  }
+  
+  .carousel-thumbnails {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .thumb {
+    flex: 1;
+    height: 40px;
+    background: #bce8ef;
+  }
+  
+  .middle {
+    display: flex;
+    height: 200px;
+    gap: 10px;
+  }
+  
+  .middle-left, .middle-right {
+    flex: 1;
+    background: #ddd;
+    padding: 10px;
+  }
+  
+  .image-box {
+    width: 100%;
+    height: 100px;
+    background: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .text-line {
+    height: 10px;
+    background: #ccc;
+    margin-top: 5px;
+  }
+  
+  .bold {
+    background: #444;
+    height: 12px;
+  }
+  
+  .short {
+    width: 60%;
+  }
+  
+  .highlight-box {
+    height: 30px;
+    background: #bce8ef;
+    margin-bottom: 10px;
+  }
+  
+  .text-block {
+    height: 12px;
+    background: #444;
+    margin-bottom: 10px;
+  }
+  
+  .list-item {
+    height: 30px;
+    background: #555;
+    margin-bottom: 5px;
+  }
+  
+  .bottom {
+    display: flex;
+    height: 120px;
+    gap: 10px;
+  }
+  
+  .bottom-sidebar {
+    width: 25%;
+    background: #bce8ef;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .sidebar-item {
+    height: 10px;
+    background: white;
+  }
+  
+  .bottom-cards {
+    flex: 1;
+    display: flex;
+    gap: 10px;
+    background: #eee;
+    padding: 10px;
+  }
+  
+  .card {
+    flex: 1;
+    background: white;
+    padding: 5px;
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+    background: #eee;
+    margin-bottom: 5px;
+  }
+  
+  .card-text {
+    height: 10px;
+    background: #ccc;
+    margin-bottom: 5px;
+  }
+  
+  .card-text.short {
+    width: 70%;
+  }
+  
+
+
+
+
+.cards-wrapper {
+    background-color: #ffffff;
+    border: 6px solid #e0e0e0;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .cards-section {
+    display: flex;
+    gap: 40px;
+    background-color: #e5e5e5;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+  }
+  
+  .title {
+    width: 60px;
+    height: 8px;
+    background-color: #50535a;
+    margin-bottom: 10px;
+  }
+  
+  .line {
+    width: 100px;
+    height: 6px;
+    background-color: #cfcfcf;
+    margin-bottom: 6px;
+  }
+  
+  .line.short {
+    width: 70px;
+  }
